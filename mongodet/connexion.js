@@ -1,7 +1,7 @@
 'use strict'
 
 const { MongoClient } = require('mongodb')
-// test
+
 const EventEmitter = require('events')
 class ConnectionEmitter extends EventEmitter {}
 const connectionEmitter = new ConnectionEmitter()
