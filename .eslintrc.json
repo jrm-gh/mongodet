@@ -1,0 +1,39 @@
+{
+	"env": {
+		"es6": true,
+		"node": true,
+		"jest": true,
+		"mongo": true
+	},
+	"extends": "eslint:recommended",
+	// "extends": ["plugin:prettier/recommended"],
+	"plugins": ["prettier"],
+	"globals": {
+		"Atomics": "readonly",
+		"SharedArrayBuffer": "readonly",
+		"BigInt": "readonly"
+	},
+	"parserOptions": {
+		"ecmaVersion": 2020
+	},
+	"rules": {
+		"indent": [
+			"error",
+			4,
+			{"SwitchCase": 1}
+		],
+		"linebreak-style": [
+			"error",
+			"unix"
+		],
+		"quotes": [
+			"error",
+			"single"
+		],
+		"semi": [
+			"error",
+			"never"
+		],
+		"prettier/prettier": "warn"
+	}
+}
