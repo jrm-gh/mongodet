@@ -1,5 +1,5 @@
 'use strict'
-// 
+
 const { MongoClient } = require('mongodb')
 
 const EventEmitter = require('events')
